@@ -131,11 +131,11 @@
     <section class="overview" id="overview" aria-label="BERAG overview">
       <p class="section-lead">BERAG generates answers by combining document-conditioned predictions, updating each document’s weight as every token is generated. Bayesian Ensemble Fine-Tuning (BEFT) trains this ensemble end to end.</p>
       <figure class="paper-figure">
-        <a class="figure-link" href="static/images/berag-overview-large.webp" data-enlarge-figure aria-label="Enlarge the BERAG inference diagram">
-          <img src="static/images/berag-overview.webp" srcset="static/images/berag-overview.webp 1200w, static/images/berag-overview-large.webp 2400w" sizes="(max-width: 1108px) calc(100vw - 72px), 1034px" width="1200" height="675" alt="BERAG inference in two stages: initialize document priors from query-document VLM representations, then combine parallel per-document token predictions using posterior weights and recursively update those weights with Bayes’ rule." fetchpriority="high" decoding="async">
+        <a class="figure-link" href="static/images/berag-overview-large.webp?v=b4effa7632" data-enlarge-figure aria-label="Enlarge the BERAG inference diagram">
+          <img src="static/images/berag-overview.webp?v=b4effa7632" srcset="static/images/berag-overview.webp?v=b4effa7632 1200w, static/images/berag-overview-large.webp?v=b4effa7632 2400w" sizes="(max-width: 1108px) calc(100vw - 72px), 1034px" width="1200" height="675" alt="BERAG inference in two stages: initialize document priors from query-document VLM representations, then combine parallel per-document token predictions using posterior weights and recursively update those weights with Bayes’ rule." fetchpriority="high" decoding="async">
           <span class="enlarge-label" aria-hidden="true">↗ Enlarge figure</span>
         </a>
-        <figcaption>BERAG inference: initialize the document prior, then decode with a posterior-weighted ensemble and update the weights token by token. <a href="static/pdfs/berag-system-diagram.pdf" target="_blank" rel="noopener noreferrer">View PDF ↗</a></figcaption>
+        <figcaption>BERAG inference: initialize the document prior, then decode with a posterior-weighted ensemble and update the weights token by token. <a href="static/pdfs/berag-system-diagram.pdf?v=b4effa7632" target="_blank" rel="noopener noreferrer">View PDF ↗</a></figcaption>
       </figure>
     </section>
 
@@ -234,7 +234,7 @@
   <dialog class="figure-viewer" aria-labelledby="viewer-title">
     <div class="viewer-header"><h2 id="viewer-title">BERAG inference</h2><button type="button" data-close-viewer autofocus>Close ×</button></div>
     <div class="viewer-toolbar"><span>Zoom in to inspect labels; scroll to move around.</span><div class="zoom-controls"><button type="button" data-zoom-out aria-label="Zoom out">−</button><output data-zoom-level aria-live="polite">100%</output><button type="button" data-zoom-in aria-label="Zoom in">+</button><button type="button" data-zoom-fit>Fit width</button></div></div>
-    <div class="viewer-viewport" tabindex="0" role="region" aria-label="Enlarged BERAG diagram"><img src="static/images/berag-overview-large.webp" width="2400" height="1350" alt="Enlarged BERAG inference diagram showing document-prior initialization, posterior-weighted token decoding, and the recursive Bayesian update." loading="lazy"></div>
+    <div class="viewer-viewport" tabindex="0" role="region" aria-label="Enlarged BERAG diagram"><img src="static/images/berag-overview-large.webp?v=b4effa7632" width="2400" height="1350" alt="Enlarged BERAG inference diagram showing document-prior initialization, posterior-weighted token decoding, and the recursive Bayesian update." loading="lazy"></div>
   </dialog>
   <script defer src="static/js/index.js"></script>
 </body>

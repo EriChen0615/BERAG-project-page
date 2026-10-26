@@ -14,17 +14,17 @@ Model and data destinations come from [the BERAG-demo reproduction recipe](https
 
 ## Main figure
 
-The figure is the file actually referenced by PhD Thesis Chapter 6:
+The webpage uses the same main diagram as the current paper:
 
-`Chapter6/Figures/system-diagram-v2.pdf`
+`paper/arxiv-submission/Figures/berag-system-diagram-paper.pdf`
 
 Web assets:
 
 - `static/images/berag-overview.webp`: 1200 × 675 preview.
 - `static/images/berag-overview-large.webp`: 2400 × 1350 enlarged version.
-- `static/pdfs/berag-system-diagram.pdf`: unchanged source PDF.
+- `static/pdfs/berag-system-diagram.pdf`: byte-identical copy of the paper's diagram PDF.
 
-If replacing the figure, update both image sizes, the PDF, the image dimensions, alt text, and caption in `index.html`. Keep the `srcset` and modal image in sync. The original diagram's equation numbers are preserved.
+If replacing the figure, update both image sizes, the PDF, the image dimensions, alt text, and caption in `index.html`. Keep the `srcset`, modal image, and asset-version query strings in sync. Diagram references must match the current paper's LaTeX equation labels: document prior Eq. 5, ensemble prediction Eq. 2, document posterior Eq. 3, and recursive update Eq. 4. Do not substitute the Thesis diagram, whose equation numbering differs.
 
 ## Main results
 
