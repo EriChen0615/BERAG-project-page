@@ -26,7 +26,7 @@ img { display: block; max-width: 100%; height: auto; }
 .paper-header { padding-top: 70px; text-align: center; }
 .project-name { margin: 0 0 22px; color: var(--accent); font-size: 14px; font-weight: 750; letter-spacing: .2em; }
 h1 { max-width: 1000px; margin: 0 auto; font-size: clamp(28px, 3.4vw, 44px); font-weight: 730; letter-spacing: -.035em; line-height: 1.2; text-wrap: balance; }
-h1 span { display: block; color: var(--accent); }
+h1 span { display: block; color: inherit; }
 .venue { margin: 20px 0 0; color: var(--accent); font-size: 18px; font-weight: 600; line-height: 1.5; }
 ul { padding: 0; list-style: none; }
 .authors { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 25px; margin: 28px auto 12px; font-size: 16px; font-weight: 550; line-height: 1.6; }
