@@ -28,7 +28,7 @@ If replacing the figure, update both image sizes, the PDF, the image dimensions,
 
 ## Main results
 
-The latest supplied Overleaf archive is extracted into `paper/overleaf-latest/`. The page's Results section transcribes all 35 active rows of `tab:best_vqa_performance_against_baselines` from `BERAG-ARR-Aug.tex`. The archive also contains older `BERAG.tex` and `BERAG-0430.tex` versions; do not mix their results into this table.
+The latest supplied Overleaf archive is extracted into `paper/overleaf-latest/` and preserved as the original snapshot. The current editable manuscript is `paper/arxiv-submission/main.tex`. The page's Results section transcribes all 37 active rows of `tab:best_vqa_performance_against_baselines`, including the authors' subsequently supplied full-validation InfoSeek BEFT results at K = 5 (43.54 for Qwen2-VL-7B and 45.41 for Qwen3-VL-8B, rounded to one decimal in the table). The archive also contains older `BERAG.tex` and `BERAG-0430.tex` versions; do not mix their results into this table.
 
 Preserve the three evaluation settings: E-VQA M2KR (150K passages), original E-VQA (2M passages), and Infoseek (100K passages). E-VQA uses BEM; Infoseek uses the official VQA score. Keep retriever Recall@5 separate from the best VQA score. Dagger-marked Infoseek results use the full validation set rather than the M2KR test subset. Preserve this caveat and the manuscript's bold scores when updating the table.
 
